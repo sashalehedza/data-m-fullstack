@@ -1,0 +1,73 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Update the button colors */
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Green Add User button */
+button.add-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Blue Update button */
+button.update-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Styles for AddUserForm and EditUserForm */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.form-container label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-container input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.form-container button {
+  margin-top: 10px;
+}
